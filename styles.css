@@ -74,15 +74,17 @@ nav ul li a:hover {
     margin: 10px 0;
 }
 
-.profile-container {
-    flex: 1;
-    display: flex;
-    justify-content: flex-end;
+.profile-picture {
+    width: 100%; /* Make the image responsive to fill the container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 0; /* Remove circular/rounded corners */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
 }
 
+
 .profile-picture {
-    width: 300px;  /* Adjust the width as needed */
-    height: auto;
+    width: 600px;  /* Adjust the width as needed */
+    height: 400px;
 }
 
 .button {
