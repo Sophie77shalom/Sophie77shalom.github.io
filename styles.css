@@ -78,8 +78,9 @@ nav ul li a:hover {
     flex: 1;
     display: flex;
     justify-content: center; }
+
 .profile-picture {
-    width: 100%; /* Adjust the width as needed */
+    width: 800px; /* Adjust the width as needed */
     height: auto; }
 
 
