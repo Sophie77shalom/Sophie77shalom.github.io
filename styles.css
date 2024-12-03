@@ -99,6 +99,25 @@ nav ul li a:hover {
     background-color: #FFB300;
 }
 
+.contact-form div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.contact-form label {
+    margin-bottom: 5px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    max-width: 600px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .intro {
