@@ -77,12 +77,13 @@ nav ul li a:hover {
 .profile-container {
     flex: 1;
     display: flex;
-    justify-content: center; }
+    justify-content: flex-end;
+}
 
 .profile-picture {
-    width: 400px; /* Adjust the width as needed */
-    height: auto; }
-
+    width: 250px;  /* Adjusted width */
+    height: auto;
+}
 
 .button {
     display: inline-block;
