@@ -75,16 +75,16 @@ nav ul li a:hover {
 }
 
 .profile-picture {
-    width: 100%; /* Make the image responsive to fill the container */
+    width: 800px; /* Make the image responsive to fill the container */
     height: auto; /* Maintain aspect ratio */
     border-radius: 0; /* Remove circular/rounded corners */
-    object-fit: cover; /* Ensure the image covers the area without distortion */
+    object-fit: contain; /* Ensure the image covers the area without distortion */
 }
 
 
 .profile-picture {
-    width: 600px;  /* Adjust the width as needed */
-    height: 400px;
+    width: 800px;  /* Adjust the width as needed */
+    height: 4800px;
 }
 
 .button {
