@@ -74,18 +74,22 @@ nav ul li a:hover {
     margin: 10px 0;
 }
 
-.profile-picture {
-    width: 100%; /* Make the image responsive to fill the container */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 0; /* Remove circular/rounded corners */
-    object-fit: cover; /* Ensure the image covers the area without distortion */
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0; /* Removes any padding */
+    margin: 0;  /* Removes any margin */
+    background-color: #FBF8CC; /* Match the background color */
+    height: auto; /* Adjust to the image size */
 }
 
-
 .profile-picture {
-    width: 100%;  /* Adjust the width as needed */
-    height: 800px;
+    width: 100%;
+    height: auto; /* Maintain the aspect ratio */
+    border-radius: 0; /* Ensure no rounded corners */
 }
+
 
 .button {
     display: inline-block;
