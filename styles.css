@@ -81,9 +81,8 @@ nav ul li a:hover {
 }
 
 .profile-picture {
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 300px;  /* Adjust the width as needed */
+    height: auto;
 }
 
 .button {
@@ -122,7 +121,7 @@ nav ul li a:hover {
 
     .profile-picture {
         width: 150px;
-        height: 150px;
+        height: auto;
     }
 
     .intro h1 {
