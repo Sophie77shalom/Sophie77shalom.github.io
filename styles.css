@@ -3,7 +3,6 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    text-align: center;
     background-color: #f4f4f4;
 }
 
@@ -18,6 +17,8 @@ nav ul {
     padding: 0;
     display: flex;
     justify-content: center;
+    margin: 0;
+    background-color: #333;
 }
 
 nav ul li {
@@ -27,10 +28,17 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
 }
 
 h1 {
-    margin: 0;
+    margin: 20px 0;
+    color: #333;
 }
 
 #projects {
@@ -55,14 +63,28 @@ h1 {
     color: #4CAF50;
 }
 
+/* Add responsive design for smaller screens */
+@media (max-width: 768px) {
+    #projects {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project {
+        width: 90%;
+    }
+}
+
 footer {
     background-color: #333;
     color: white;
     padding: 10px 0;
+    text-align: center;
     position: fixed;
     width: 100%;
     bottom: 0;
 }
+
 
 /* Add responsive design for smaller screens */
 @media (max-width: 768px) {
