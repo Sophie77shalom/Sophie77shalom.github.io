@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #FFFDE7; /* Light yellow background */
     color: #333;
     display: flex;
     flex-direction: column;
@@ -11,8 +11,8 @@ body {
 }
 
 header {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #FFEB3B; /* Yellow accent color for the header */
+    color: #333;
     padding: 20px;
     width: 100%;
 }
@@ -23,7 +23,7 @@ nav ul {
     display: flex;
     justify-content: center;
     margin: 0;
-    background-color: #333;
+    background-color: #FFEB3B; /* Yellow accent color */
 }
 
 nav ul li {
@@ -31,27 +31,27 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: #333;
     text-decoration: none;
     padding: 10px 20px;
     display: block;
 }
 
 nav ul li a:hover {
-    background-color: #575757;
+    background-color: #FFF59D; /* Lighter yellow on hover */
 }
 
-.intro {
+.intro, .content {
     margin-top: 50px;
     text-align: center;
 }
 
-.intro h1 {
+.intro h1, .content h1 {
     font-size: 3em;
     margin: 0;
 }
 
-.intro h2 {
+.intro h2, .content h2 {
     font-size: 2em;
     color: #666;
     margin: 10px 0;
@@ -59,7 +59,7 @@ nav ul li a:hover {
 
 .button {
     display: inline-block;
-    background-color: #4CAF50;
+    background-color: #FFC107; /* Button yellow color */
     color: white;
     padding: 10px 20px;
     text-decoration: none;
@@ -68,16 +68,48 @@ nav ul li a:hover {
 }
 
 .button:hover {
-    background-color: #45a049;
+    background-color: #FFB300; /* Slightly darker yellow on hover */
+}
+
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.project {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.project h2 {
+    margin-top: 0;
+    color: #FFEB3B; /* Yellow color for project titles */
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    .intro h1 {
+    .intro h1, .content h1 {
         font-size: 2.5em;
     }
 
-    .intro h2 {
+    .intro h2, .content h2 {
         font-size: 1.5em;
     }
 }
