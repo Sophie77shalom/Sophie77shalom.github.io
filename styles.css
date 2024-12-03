@@ -38,7 +38,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #FBF8CC; /* Lighter yellow on hover */
+    background-color: #FFF59D; /* Lighter yellow on hover */
 }
 
 .intro, .content {
@@ -81,8 +81,9 @@ nav ul li a:hover {
 }
 
 .contact-details a {
-    color: #FBF8CC; /* Link color */
+    color: #FF5722; /* Darker link color for better contrast */
     text-decoration: none;
+    font-weight: bold;
 }
 
 .contact-details a:hover {
@@ -108,12 +109,13 @@ nav ul li a:hover {
     width: 100%;
     max-width: 600px;
     padding: 10px;
-    border: 1px solid #ddd;
+    border: 2px solid #333; /* Darker border for better visibility */
     border-radius: 5px;
+    background-color: #fff;
 }
 
 .contact-form button {
-    background-color: #FBF8CC;
+    background-color: #FF5722; /* Darker button color for better contrast */
     color: white;
     padding: 10px 20px;
     border: none;
@@ -123,7 +125,7 @@ nav ul li a:hover {
 }
 
 .contact-form button:hover {
-    background-color: #FBF8CC;
+    background-color: #E64A19; /* Slightly darker hover color */
 }
 
 footer {
