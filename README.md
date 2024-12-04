@@ -1,5 +1,3 @@
-# Sophie77shalom.github.io
-
 # Sophy Jeptoo's Portfolio
 
 ## Introduction
