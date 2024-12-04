@@ -99,24 +99,37 @@ nav ul li a:hover {
     background-color: #FFB300;
 }
 
-.contact-form div {
+.contact-form .form-group {
     display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
+    align-items: center;
+    margin-bottom: 15px;
 }
 
 .contact-form label {
-    margin-bottom: 5px;
+    width: 100px; /* Adjust the width as needed */
+    margin-right: 10px;
 }
 
 .contact-form input, .contact-form textarea {
-    width: 100%;
-    max-width: 600px;
+    flex: 1;
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 5px;
-    margin-bottom: 15px;
 }
+
+.contact-form button {
+    background-color: #FF5722; /* Darker button color for better contrast */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #E64A19; /* Slightly darker hover color */
+}
+
 
 /* About Me Section */
 .content {
